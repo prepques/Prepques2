@@ -1,0 +1,248 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "System Administrator",
+      "username": "admin",
+      "password": "$2b$10$JARU2j.lqlhU1YFHMKlqFe1drlulfez/qmb1oMkAxr5ZfH0mLc1Xy",
+      "role": "admin",
+      "status": "active",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 2,
+      "name": "John Doe User",
+      "username": "user",
+      "password": "$2b$10$JARU2j.lqlhU1YFHMKlqFeUPJDUkJg.QVhVns8HWbr8yT2UdzBngC",
+      "role": "user",
+      "status": "active",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "Mathematics",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 2,
+      "name": "Science",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 3,
+      "name": "History",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 4,
+      "name": "English",
+      "created_at": "2026-07-02T17:48:22.955Z"
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "subject_id": 1,
+      "name": "Algebra",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 2,
+      "subject_id": 1,
+      "name": "Calculus",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 3,
+      "subject_id": 2,
+      "name": "Physics",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 4,
+      "subject_id": 2,
+      "name": "Chemistry",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 5,
+      "subject_id": 3,
+      "name": "World War II",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "chapter_id": 1,
+      "name": "Quadratic Equations",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 2,
+      "chapter_id": 1,
+      "name": "Linear Equations",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 3,
+      "chapter_id": 2,
+      "name": "Limits & Continuity",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 4,
+      "chapter_id": 3,
+      "name": "Mechanics",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 5,
+      "chapter_id": 4,
+      "name": "Periodic Table",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 6,
+      "chapter_id": 5,
+      "name": "Major Events",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "subject_id": 1,
+      "chapter_id": 1,
+      "topic_id": 1,
+      "question_text": "What is the discriminant of the quadratic equation ax^2 + bx + c = 0?",
+      "option_a": "b^2 - 4ac",
+      "option_b": "b^2 + 4ac",
+      "option_c": "-b + sqrt(b^2 - 4ac)",
+      "option_d": "-b - sqrt(b^2 - 4ac)",
+      "correct_answer": "A",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 2,
+      "subject_id": 1,
+      "chapter_id": 1,
+      "topic_id": 1,
+      "question_text": "If the discriminant of a quadratic equation is negative, the roots are:",
+      "option_a": "Real and equal",
+      "option_b": "Real and distinct",
+      "option_c": "Complex or imaginary",
+      "option_d": "Rational",
+      "correct_answer": "C",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 3,
+      "subject_id": 1,
+      "chapter_id": 1,
+      "topic_id": 2,
+      "question_text": "What is the slope of the line given by the equation 2y - 4x = 8?",
+      "option_a": "2",
+      "option_b": "-2",
+      "option_c": "4",
+      "option_d": "0.5",
+      "correct_answer": "A",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 4,
+      "subject_id": 1,
+      "chapter_id": 2,
+      "topic_id": 3,
+      "question_text": "What is the limit of sin(x)/x as x approaches 0?",
+      "option_a": "0",
+      "option_b": "1",
+      "option_c": "Infinity",
+      "option_d": "Undefined",
+      "correct_answer": "B",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 5,
+      "subject_id": 2,
+      "chapter_id": 3,
+      "topic_id": 4,
+      "question_text": "Which of the following equations represents Newton's second law of motion?",
+      "option_a": "F = ma",
+      "option_b": "p = mv",
+      "option_c": "E = mc^2",
+      "option_d": "v = u + at",
+      "correct_answer": "A",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 6,
+      "subject_id": 2,
+      "chapter_id": 3,
+      "topic_id": 4,
+      "question_text": "What is the approximate acceleration due to gravity on Earth's surface?",
+      "option_a": "9.8 m/s^2",
+      "option_b": "8.9 m/s^2",
+      "option_c": "1.6 m/s^2",
+      "option_d": "11.2 m/s^2",
+      "correct_answer": "A",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 7,
+      "subject_id": 2,
+      "chapter_id": 4,
+      "topic_id": 5,
+      "question_text": "What is the chemical symbol for Gold?",
+      "option_a": "Gd",
+      "option_b": "Go",
+      "option_c": "Au",
+      "option_d": "Ag",
+      "correct_answer": "C",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 8,
+      "subject_id": 2,
+      "chapter_id": 4,
+      "topic_id": 5,
+      "question_text": "Which gas is the most abundant in the Earth's atmosphere?",
+      "option_a": "Oxygen",
+      "option_b": "Carbon dioxide",
+      "option_c": "Nitrogen",
+      "option_d": "Hydrogen",
+      "correct_answer": "C",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 9,
+      "subject_id": 3,
+      "chapter_id": 5,
+      "topic_id": 6,
+      "question_text": "In which year did World War II end?",
+      "option_a": "1918",
+      "option_b": "1939",
+      "option_c": "1945",
+      "option_d": "1950",
+      "correct_answer": "C",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    },
+    {
+      "id": 10,
+      "subject_id": 3,
+      "chapter_id": 5,
+      "topic_id": 6,
+      "question_text": "Which country was NOT part of the Axis Powers?",
+      "option_a": "Germany",
+      "option_b": "Italy",
+      "option_c": "Japan",
+      "option_d": "Soviet Union",
+      "correct_answer": "D",
+      "created_at": "2026-07-02T17:48:18.202Z"
+    }
+  ],
+  "tests": [],
+  "test_answers": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Smart Question Revision System",
+  "description": "An MVP of a Smart Question Revision System with Subject, Chapter, Topic, and Question management for Admins, and customized test-taking and result tracking for Users.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
